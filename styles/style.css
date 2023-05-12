@@ -1,0 +1,85 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0px;
+  background-color: #1f8a92;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  color: rgba(233, 231, 211, 0.952);
+  font-weight: 600px;
+  align-items: center;
+  text-align: center;
+}
+
+img {
+  margin: 0px;
+  width: 20%;
+  filter: drop-shadow(#762317);
+}
+h1 {
+  margin-bottom: 5px;
+  font-size: 40px;
+  font-style: normal;
+  text-shadow: 1px 0 10px #762417d8;
+}
+h3 {
+  margin-top: 0px;
+  font-size: 40px;
+  font-style: normal;
+  text-shadow: 1px 0 10px #762417d8;
+}
+#container p {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 25px;
+  font-style: italic;
+  font-weight: 600px;
+  text-shadow: 1px 0 5px #762417dc;
+}
+hr {
+  border: 1px solid;
+  border-color: #e6f511cc;
+  width: 8%;
+}
+#buttoncontainer {
+  justify-items: end;
+  width: 100%;
+  margin-top: 60px;
+  display: flex;
+  justify-content: space-between;
+}
+.addition {
+  margin-left: 40%;
+}
+.subtraction {
+  margin-right: 40%;
+}
+button {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 35px;
+  font-weight: 800;
+  color: #762317;
+  width: 45px;
+  height: 45px;
+  border-style: none;
+  border-radius: 50%;
+  text-shadow: 1px 0 10px whitesmoke;
+  box-shadow: 0 4px 8px 0 rgba(41, 24, 24, 0.2),
+    0 6px 20px 0 rgba(18, 20, 16, 0.19);
+}
+
+button:hover {
+  cursor: pointer;
+  background-color: #762417cc;
+  color: whitesmoke;
+  width: 48px;
+  height: 48px;
+}
+
+footer p {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  text-shadow: 1px 0 5px #0c0a0a7a;
+  margin-top: 100px;
+}
