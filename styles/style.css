@@ -2,12 +2,13 @@
   box-sizing: border-box;
 }
 body {
+  padding: 10px;
   margin: 0px;
   background-color: #1f8a92;
   font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
     Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   color: rgba(233, 231, 211, 0.952);
-  font-weight: 600px;
+  font-weight: 500px;
   align-items: center;
   text-align: center;
 }
@@ -18,7 +19,7 @@ img {
   filter: drop-shadow(#762317);
 }
 h1 {
-  margin-bottom: 5px;
+  margin: 20px 0px 20px 0px;
   font-size: 40px;
   font-style: normal;
   text-shadow: 1px 0 10px #762417d8;
@@ -28,6 +29,10 @@ h3 {
   font-size: 40px;
   font-style: normal;
   text-shadow: 1px 0 10px #762417d8;
+}
+
+#container {
+  margin-bottom: 180px;
 }
 #container p {
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
@@ -39,15 +44,16 @@ h3 {
 hr {
   border: 1px solid;
   border-color: #e6f511cc;
-  width: 8%;
+  width: 10%;
 }
 #buttoncontainer {
   justify-items: end;
   width: 100%;
-  margin-top: 60px;
+  margin-top: 50px;
   display: flex;
   justify-content: space-between;
 }
+
 .addition {
   margin-left: 40%;
 }
@@ -77,9 +83,43 @@ button:hover {
 }
 
 footer p {
+  text-align: center;
+  position: relative;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   font-size: 20px;
-  font-weight: 500;
+  font-weight: 400;
   text-shadow: 1px 0 5px #0c0a0a7a;
-  margin-top: 100px;
+}
+
+@media screen and (max-width: 600px) {
+  img {
+    width: 50%;
+  }
+
+  h1 {
+    font-size: 25px;
+  }
+
+  h4 {
+    font-size: 20px;
+  }
+
+  #container {
+    margin-bottom: 130px;
+  }
+
+  #container p {
+    font-size: 22px;
+  }
+
+  #paragraph p {
+    font-size: large;
+  }
+
+  .addition {
+    margin-left: 30%;
+  }
+  .subtraction {
+    margin-right: 30%;
+  }
 }
